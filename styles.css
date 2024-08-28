@@ -1,0 +1,93 @@
+/*styles.css*/
+
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.logo {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 340px;
+height: 340px;
+border: 4px ;
+}
+
+H1 {
+    font-size: 40px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+
+.hem {
+    color: red;
+    background-color: white;
+    font-size: 32px;
+}
+
+.hemknapp {
+    text-align: center;
+}
+
+#meny {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    text-align: center;
+}
+
+.text{
+    display:inline-block ;
+    width: 1000px;
+    height: 300px;
+    border: 2px;
+    vertical-align: top;
+    margin: 5px;
+}
+
+.bild{
+    display: inline-block;
+    margin: 5px auto;
+    vertical-align: top auto;
+    border: 5px solid rgb(1, 1, 1);
+}
+
+
+.border {
+    border: 5px solid grey;
+    margin: 15px;
+    padding: 10px;
+    background-color: bisque;
+}
+
+.rubriker,
+.rubrikertvå, h5 {
+color: red;
+}
+
+.rubrikertvå h5 {
+font-style: italic;
+}
+
+.rubriker {
+    background-color:rgb(14, 7, 7);
+    text-align: center;
+    font-size: 24px;
+}
+
+.alla-rubriker {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.center{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    border: 3px ;
+    text-align: center;
+}
+
